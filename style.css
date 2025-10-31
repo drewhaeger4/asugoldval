@@ -1,0 +1,106 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: rgb(38, 38, 38);
+  color: #222;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #340202;
+  color: goldenrod;
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 2rem;
+  color: goldenrod;
+}
+
+.match-card {
+  background: rgb(56, 4, 4);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.match-card p {
+  margin: 0.5rem 0;
+}
+.match-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.team-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.team-name {
+  font-weight: bold;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.vs {
+  font-weight: bold;
+  color: #0078d4;
+  font-size: 1.2rem;
+}
+
+.score {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: goldenrod;
+  min-width: 50px;
+  text-align: center;
+}
+
+.match-info {
+  color: goldenrod;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.blurred {
+  filter: blur(8px);
+  user-select: none;
+}
+
+button {
+  background: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #005ea8;
+}
+
+footer {
+  background: #222;
+  color: #ccc;
+  padding: 1rem;
+  margin-top: 3rem;
+}
