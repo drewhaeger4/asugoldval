@@ -2,7 +2,7 @@ const toggleBtn = document.getElementById("toggleResults");
 let showing = false;
 
 toggleBtn.addEventListener("click", () => {
-  const results = document.querySelectorAll(".score");
+  const results = document.querySelectorAll(".hiddenscore");
   results.forEach(result => {
     result.classList.toggle("blurred");
   });
