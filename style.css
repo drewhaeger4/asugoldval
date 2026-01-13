@@ -19,7 +19,7 @@ main {
   margin: auto;
 }
 
-h2 {
+h2 { 
   margin-top: 2rem;
   color: goldenrod;
 }
@@ -54,6 +54,24 @@ h3 {
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid black;
+}
+
+.swiss-image { 
+  width: 1200px;
+  height: 900px;
+  scale: .50;
+  border: 1px solid black;
+}
+
+.swiss-image-center { 
+  display: block; 
+  margin: auto;
+  width: 70%;
+  height: 70%;
+
+  scale: 125%;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .team-name {
