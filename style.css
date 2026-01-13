@@ -94,6 +94,14 @@ h3 {
   text-align: center;
 }
 
+.hiddenscore {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: goldenrod;
+  min-width: 50px;
+  text-align: center;
+}
+
 .match-info {
   color: goldenrod;
   font-size: 0.9rem;
