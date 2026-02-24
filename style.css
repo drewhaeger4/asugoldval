@@ -29,8 +29,22 @@ h3 {
   color: goldenrod;
 }
 
+h4 {
+  margin-top: 1rem;
+  scale: 4;
+  color: maroon
+}
+
 .match-card {
   background: rgb(56, 4, 4);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.playoff-card {
+  background: goldenrod;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1rem 0;
@@ -80,6 +94,12 @@ h3 {
   font-size: 1.1rem;
 }
 
+.playoff-team-name {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
 .vs {
   font-weight: bold;
   color: #0078d4;
@@ -94,6 +114,14 @@ h3 {
   text-align: center;
 }
 
+.playoff-score {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: maroon;
+  min-width: 50px;
+  text-align: center;
+}
+
 .hiddenscore {
   font-weight: bold;
   font-size: 2.0rem;
@@ -102,8 +130,22 @@ h3 {
   text-align: center;
 }
 
+.playoff-hiddenscore {
+  font-weight: bold;
+  font-size: 2.0rem;
+  color: maroon;
+  min-width: 50px;
+  text-align: center;
+}
+
 .match-info {
   color: goldenrod;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.playoff-match-info {
+  color: black;
   font-size: 0.9rem;
   margin-top: 0.5rem;
 }
